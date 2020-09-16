@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style-form.css">
+</head>
+<body>
+	<div class="container">
+		<div class="form-container">
+			<form action="../Back-end/proses.php" method="post" autocomplete="on" id="form1">
+				<fieldset>
+					<legend>Form Login</legend>
+					<div class="form-group">
+						<div class="label">
+							<label>Username</label>
+						</div>
+						<div class="input">
+							<input type="text" name="username" required placeholder="Username" maxlength="30" autofocus>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="label">
+							<label>Password</label>
+						</div>
+						<div class="input">
+							<input type="password" name="password" required placeholder="Password" maxlength="30" autofocus>
+						</div>
+					</div>
+					<div class="form-group" >
+						<button class="button" name="login" style="padding-left: 20px; padding-right:20px; margin-left: 80px; margin-right: 45px" type="submit">Login</button> <a class="button" href="register.html">Register</a>
+					</div>
+          <div class="form-group">
+            
+          </div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

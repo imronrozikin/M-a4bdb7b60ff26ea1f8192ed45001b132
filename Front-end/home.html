@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style-form.css">
+</head>
+<body>
+<div class="container">
+  <div class="card">
+  	<a style="float: right;" href="../Back-end/proses.php?logout">Logout</a>
+    <center><div id="jamdigital" class="jam" onload="jam()"></div></center>
+    <center><label class="modal-open modal-label" for="modal-open"><p id="hello">Hello</p></label></center>
+    <input type="radio" name="modal" value="open" id="modal-open" class="modal-radio">
+    <div class="modal">
+      <label class="modal-label overlay"><input type="radio" name="modal" value="close" class="modal-radio"/></label>
+      <div class="content">
+        <div class="top">
+          <label class="modal-label close-btn">
+            <input type="radio" name="modal-radio" value="close" class="modal-radio"/>
+          </label>
+        </div>
+        <center><h2 id="status">Silahkan Login</h2></center>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
